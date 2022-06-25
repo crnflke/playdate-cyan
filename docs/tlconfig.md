@@ -9,7 +9,7 @@ This file describes the layout of your project by returning a table with the fol
 | `exclude`          |                      | `{string}`          | A list of [patterns](#Patterns) describing what files to exclude |
 | `externals`        |                      | `{any:any}`         | Entry for external tooling to use, unused by cyan itself |
 | `gen_compat`       | `--gen-compat`       | `tl.CompatMode`     | Generate compatability code for different Lua versions |
-| `gen_target`       | `--gen-target`       | `tl.TargetMode`     | Minimum Lua version for generated code. One of `5.1` or `5.3` |
+| `gen_target`       | `--gen-target`       | `tl.TargetMode`     | Minimum Lua version for generated code. One of `5.1`, `5.3`, `5.4` or `playdate` |
 | `include_dir`      | `-I` `--include-dir` | `{string}`          | Add each path provided to `package.path` and `package.cpath` |
 | `include`          |                      | `{string}`          | A list of [patterns](#Patterns) describing what files to include |
 | `module_name`      |                      | `string`            | Replace `module_name` with `source_dir` in `require` calls |

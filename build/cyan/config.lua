@@ -102,7 +102,7 @@ function config.is_config(c)
       scripts = "{string : {string : (string | {string}) }}",
 
       gen_compat = { ["off"] = true, ["optional"] = true, ["required"] = true },
-      gen_target = { ["5.1"] = true, ["5.3"] = true },
+      gen_target = { ["5.1"] = true, ["5.3"] = true, ["5.4"] = true, ["playdate"] = true },
 
       disable_warnings = "{string}",
       warning_error = "{string}",
